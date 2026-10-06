@@ -129,7 +129,7 @@ ${Object.entries(securityHeaders).map(([k, v]) => `  ${k}: ${v}`).join("\n")}
 const vercelJson = JSON.stringify({
   $schema: "https://openapi.vercel.sh/vercel.json",
   framework: null,
-  installCommand: "pnpm install && npm install -g bun",
+  installCommand: "npm install --no-audit --no-fund && npm install -g bun",
   buildCommand: "bun run build.ts",
   outputDirectory: OUT,
   trailingSlash: true,

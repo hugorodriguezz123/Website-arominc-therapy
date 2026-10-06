@@ -124,15 +124,23 @@ ${Object.entries(securityHeaders).map(([k, v]) => `  ${k}: ${v}`).join("\n")}
   Cache-Control: public, max-age=31536000, immutable
 `);
 
-// Vercel: equivalente en vercel.json
-await emit("vercel.json", JSON.stringify({
+// Vercel: solo lee vercel.json de la RAÍZ del repo (no de dist/). Se regenera aquí para que redirecciones
+// y cabeceras sigan a site.config.ts; si cambia, súbelo al repositorio junto con el resto.
+const vercelJson = JSON.stringify({
+  $schema: "https://openapi.vercel.sh/vercel.json",
+  framework: null,
+  installCommand: "pnpm install && npm install -g bun",
+  buildCommand: "bun run build.ts",
+  outputDirectory: OUT,
   trailingSlash: true,
   redirects: config.social.filter((s) => s.redirect).map((s) => ({ source: s.redirect, destination: s.url, permanent: false })),
   headers: [
     { source: "/(.*)", headers: Object.entries(securityHeaders).map(([key, value]) => ({ key, value })) },
     { source: "/assets/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] },
+    { source: "/images/_opt/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] },
   ],
-}, null, 2));
+}, null, 2) + "\n";
+if ((await Bun.file("vercel.json").text().catch(() => "")) !== vercelJson) await Bun.write("vercel.json", vercelJson);
 
 // ---------- Informe ----------
 const size = (n: number) => `${(n / 1024).toFixed(1)} KB`;

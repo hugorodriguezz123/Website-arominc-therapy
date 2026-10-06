@@ -1,0 +1,71 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "pnpm install && npm install -g bun",
+  "buildCommand": "bun run build.ts",
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/ig",
+      "destination": "https://www.instagram.com/briggith.gauss",
+      "permanent": false
+    },
+    {
+      "source": "/fb",
+      "destination": "https://www.facebook.com/Gauss.Healt",
+      "permanent": false
+    },
+    {
+      "source": "/yt",
+      "destination": "https://www.youtube.com/@BriggithGauss",
+      "permanent": false
+    },
+    {
+      "source": "/wa",
+      "destination": "https://wa.me/573016007200?text=Hola%20Briggith%2C%20quiero%20informaci%C3%B3n%20sobre%20las%20terapias",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/images/_opt/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

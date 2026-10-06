@@ -1,0 +1,574 @@
+{
+  "languages": {
+    "es": "Español"
+  },
+  "a11y": {
+    "skip": "Saltar al contenido",
+    "mainNav": "Navegación principal",
+    "footerNav": "Enlaces del pie de página",
+    "language": "Cambiar idioma",
+    "toggleTheme": "Cambiar entre tema claro y oscuro",
+    "menu": "Abrir o cerrar el menú",
+    "close": "Cerrar video",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "videoDialog": "Reproductor de video",
+    "newTab": "(se abre en una pestaña nueva)",
+    "testimonialsTrack": "Videos de testimonios, desliza para ver más",
+    "podcastTrack": "Episodios del podcast, desliza para ver más"
+  },
+  "brand": {
+    "tagline": "Sanación del cuerpo y alma",
+    "home": "Gauss, sanación del cuerpo y alma. Ir al inicio"
+  },
+  "nav": {
+    "home": "Inicio",
+    "cta": "Agendar sesión",
+    "items": [
+      {
+        "label": "Sobre mí",
+        "href": "#sobre-mi"
+      },
+      {
+        "label": "Terapias",
+        "href": "#terapias"
+      },
+      {
+        "label": "Testimonios",
+        "href": "#testimonios"
+      },
+      {
+        "label": "Podcast",
+        "href": "#podcast"
+      },
+      {
+        "label": "Preguntas",
+        "href": "#preguntas"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ]
+  },
+  "home": {
+    "meta": {
+      "title": "Gauss | Biomagnetismo y sanación del cuerpo y alma",
+      "description": "Briggith Guzmán Chavarro, terapeuta de medicina alternativa: biomagnetismo, liberación emocional y terapia del alma, presencial y online."
+    }
+  },
+  "intro": {
+    "label": "Cargando Gauss"
+  },
+  "hero": {
+    "eyebrow": "Medicina alternativa · Biomagnetismo",
+    "titleStart": "Sana tu historia,",
+    "titleEm": "reconecta con tu bienestar",
+    "titleEnd": "y despierta tu luz interior.",
+    "leadStart": "Soy",
+    "leadName": "Briggith Guzmán Chavarro",
+    "leadEnd": ", terapeuta de medicina alternativa. Te acompaño a recuperar el equilibrio entre tu cuerpo, tus emociones y tu alma, en un espacio cálido, sin juicios y a tu ritmo.",
+    "ctaPrimary": "Agendar mi primera consulta",
+    "ctaSecondary": "Ver terapias",
+    "checks": [
+      "Presencial y online",
+      "Sesiones individuales y en grupo",
+      "100% confidencial"
+    ],
+    "imageAlt": "Briggith Guzmán Chavarro, terapeuta de medicina alternativa, con bata blanca y uniforme amarillo",
+    "badgeName": "Briggith Guzmán Chavarro",
+    "badgeRole": "Terapeuta de medicina alternativa"
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "titleStart": "Hola, soy",
+    "titleEm": "Briggith Guzmán Chavarro",
+    "titleEnd": "",
+    "sub": "Terapeuta de medicina alternativa. Te acompaño con empatía, experiencia y respeto en tu regreso al equilibrio.",
+    "paragraphs": [
+      "Creo que cada síntoma o malestar es un mensaje que tu cuerpo y tu alma te están dando. Mi labor no es juzgarte ni darte recetas genéricas, sino ofrecerte una guía profesional y amorosa para que reconectes con tu propia sabiduría.",
+      "Me he formado en biomagnetismo, decodificación biológica y técnicas de liberación emocional, y he acompañado a cientos de personas a recuperar su vitalidad, soltar dolores que se repetían y cerrar ciclos del pasado con paz."
+    ],
+    "stats": [
+      {
+        "value": "+500",
+        "label": "Personas acompañadas"
+      },
+      {
+        "value": "100%",
+        "label": "Confidencialidad"
+      },
+      {
+        "value": "2",
+        "label": "Modalidades: presencial y online"
+      }
+    ],
+    "imageAlt": "Retrato de Briggith Guzmán Chavarro",
+    "reelLabel": "Conóceme en 1 minuto",
+    "reelSource": "Video de presentación"
+  },
+  "help": {
+    "titleStart": "¿Cómo puedo",
+    "titleEm": "ayudarte",
+    "titleEnd": "?",
+    "intro": "Abordo tu salud como un sistema conectado: cuando una parte vuelve al equilibrio, todo lo demás lo siente.",
+    "items": [
+      {
+        "icon": "body",
+        "title": "Cuerpo",
+        "text": "Biomagnetismo para equilibrar el pH, aliviar tensiones y favorecer un descanso profundo."
+      },
+      {
+        "icon": "mind",
+        "title": "Mente",
+        "text": "Herramientas para soltar creencias limitantes, bajar la sobrecarga mental y recuperar la calma."
+      },
+      {
+        "icon": "heart",
+        "title": "Emociones",
+        "text": "Liberación de emociones atrapadas para que vuelvas a sentir ligereza y paz."
+      },
+      {
+        "icon": "energy",
+        "title": "Energía",
+        "text": "Armonización energética para recuperar tu vitalidad y tu entusiasmo."
+      },
+      {
+        "icon": "family",
+        "title": "Sistema familiar",
+        "text": "Una mirada a tus raíces para sanar cargas heredadas y patrones que se repiten."
+      }
+    ]
+  },
+  "therapies": {
+    "eyebrow": "Servicios y terapias",
+    "titleStart": "Caminos de sanación",
+    "titleEm": "diseñados para ti",
+    "titleEnd": "",
+    "lead": "Cada persona es un universo único. Elige si quieres vivir tu proceso a solas o en compañía.",
+    "tabsLabel": "Tipo de terapia",
+    "tabIndividual": "Individuales",
+    "tabGroup": "En grupo",
+    "individualTitle": "Sesiones individuales",
+    "groupTitle": "Encuentros en grupo",
+    "individual": [
+      {
+        "key": "biomagnetismo",
+        "badge": "Individual",
+        "title": "Biomagnetismo",
+        "text": "Con pares de imanes localizamos y equilibramos los puntos de desbalance de pH en tu cuerpo. Un acompañamiento complementario para aliviar molestias y recuperar tu vitalidad.",
+        "mode": "Presencial",
+        "modeIcon": "pin",
+        "duration": "60 min",
+        "cta": "Agendar biomagnetismo",
+        "imageAlt": "Sesión de biomagnetismo en el consultorio",
+        "placeholder": "Foto: sesión de biomagnetismo"
+      },
+      {
+        "key": "liberacion-emocional",
+        "badge": "Individual",
+        "title": "Liberación de emociones atrapadas",
+        "text": "Identificamos y soltamos cargas emocionales del pasado que se manifiestan como ansiedad, bloqueos o tensión en el cuerpo, para que vuelvas a sentir ligereza y paz.",
+        "mode": "Presencial u online",
+        "modeIcon": "screen",
+        "duration": "60 min",
+        "cta": "Liberar mis emociones",
+        "imageAlt": "Sesión de liberación emocional",
+        "placeholder": "Foto: liberación emocional"
+      },
+      {
+        "key": "terapia-alma",
+        "badge": "Individual",
+        "title": "Terapia del alma y sistema familiar",
+        "text": "Una mirada profunda para sanar lealtades invisibles, ordenar tu sistema familiar y disolver patrones que se repiten en el amor, la abundancia y tu propósito.",
+        "mode": "Presencial u online",
+        "modeIcon": "screen",
+        "duration": "90 min",
+        "cta": "Agendar sesión del alma",
+        "imageAlt": "Sesión de terapia del alma",
+        "placeholder": "Foto: terapia del alma"
+      }
+    ],
+    "group": [
+      {
+        "key": "constelaciones",
+        "badge": "En grupo",
+        "title": "Constelaciones familiares",
+        "text": "Un encuentro en grupo para mirar tu sistema familiar, ordenar vínculos y liberar cargas que se repiten de generación en generación.",
+        "mode": "Presencial",
+        "modeIcon": "pin",
+        "duration": "12 cupos",
+        "cta": "Reservar mi cupo",
+        "imageAlt": "Encuentro de constelaciones familiares",
+        "placeholder": "Foto: constelación en grupo"
+      },
+      {
+        "key": "circulos",
+        "badge": "En grupo",
+        "title": "Círculos de liberación emocional",
+        "text": "Espacios guiados para soltar en compañía lo que pesa, con ejercicios de conciencia, escucha y un acompañamiento amoroso.",
+        "mode": "Presencial u online",
+        "modeIcon": "screen",
+        "duration": "10 cupos",
+        "cta": "Reservar mi cupo",
+        "imageAlt": "Círculo de liberación emocional",
+        "placeholder": "Foto: círculo grupal"
+      },
+      {
+        "key": "meditacion",
+        "badge": "En grupo",
+        "title": "Meditación y armonización energética",
+        "text": "Sesiones grupales para recuperar la calma, armonizar tu energía y crear un hábito de bienestar que puedas sostener en casa.",
+        "mode": "Online",
+        "modeIcon": "screen",
+        "duration": "45 min",
+        "cta": "Reservar mi cupo",
+        "imageAlt": "Meditación grupal online",
+        "placeholder": "Foto: meditación grupal"
+      }
+    ],
+    "groupNote": "Las fechas de los próximos encuentros se publican en Instagram.",
+    "groupNoteLink": "Quiero que me avisen"
+  },
+  "testimonials": {
+    "eyebrow": "Testimonios",
+    "titleStart": "Conoce las historias de quienes ya",
+    "titleEm": "dieron el paso",
+    "titleEnd": ".",
+    "lead": "Elegir a tu terapeuta es una decisión muy personal, y escuchar a quienes ya vivieron el proceso puede ayudarte. En estos videos cortos cuentan, con sus propias palabras, cómo fue su experiencia.",
+    "items": [
+      {
+        "video": "testimonio-1",
+        "name": "Julieth",
+        "therapy": "Acompañamiento integral"
+      },
+      {
+        "video": "testimonio-2",
+        "name": "Diego Vargas",
+        "therapy": "Dejar de fumar"
+      },
+      {
+        "video": "testimonio-3",
+        "name": "Johana",
+        "therapy": "Terapias complementarias"
+      },
+      {
+        "video": "testimonio-4",
+        "name": "Elvis Uriel",
+        "therapy": "Equilibrio cuerpo y emociones"
+      },
+      {
+        "video": "testimonio-5",
+        "name": "Lutelia Gómez",
+        "therapy": "Sanación y equilibrio integral"
+      },
+      {
+        "video": "testimonio-6",
+        "name": "José Páez",
+        "therapy": "Dolor crónico y medicamentos"
+      },
+      {
+        "video": "testimonio-7",
+        "name": "Kelly",
+        "therapy": "Embarazo y desintoxicación"
+      },
+      {
+        "video": "testimonio-8",
+        "name": "Sherry Peterson",
+        "therapy": "Problemas digestivos e intestinales"
+      }
+    ],
+    "more": "Ver más historias en Instagram",
+    "watchOn": "Ver en {platform}"
+  },
+  "faq": {
+    "eyebrow": "Buenas preguntas",
+    "titleStart": "Cosas que la gente pregunta",
+    "titleEm": "antes de contactarme",
+    "titleEnd": "",
+    "items": [
+      {
+        "q": "¿Dónde atiendes?",
+        "a": "Atiendo de forma presencial en el consultorio Gauss y también online por videollamada, desde cualquier lugar."
+      },
+      {
+        "q": "¿Cómo funcionan las sesiones online?",
+        "a": "Nos conectamos por videollamada a la hora acordada. Solo necesitas un lugar tranquilo, buena conexión y audífonos. La liberación emocional y la terapia del alma se pueden hacer a distancia; el biomagnetismo se realiza de forma presencial."
+      },
+      {
+        "q": "¿Cuánto cuesta una sesión?",
+        "a": "El valor depende del tipo de sesión y de si es individual o en grupo. Escríbeme y te comparto las tarifas y los paquetes disponibles."
+      },
+      {
+        "q": "¿Qué pasa en la primera sesión?",
+        "a": "Conversamos sobre lo que te trae, revisamos tu historia y definimos el camino a seguir. Después hacemos la primera intervención para que sientas cómo trabajamos."
+      },
+      {
+        "q": "¿La terapia reemplaza mi tratamiento médico?",
+        "a": "No. La medicina alternativa es un acompañamiento complementario: no reemplaza el diagnóstico ni el tratamiento de tu médico. Si tienes un tratamiento en curso, no lo suspendas."
+      },
+      {
+        "q": "¿Cuántas sesiones voy a necesitar?",
+        "a": "Depende de cada persona y de lo que quieras trabajar. En la primera consulta te doy una orientación según tu caso y la vamos ajustando sobre la marcha."
+      },
+      {
+        "q": "¿En qué se diferencian las sesiones individuales de las grupales?",
+        "a": "En la sesión individual el espacio es solo para ti y tu proceso. En los encuentros en grupo trabajamos en compañía, y eso suma apoyo, escucha y la experiencia de otras personas."
+      },
+      {
+        "q": "¿Qué pasa si necesito cancelar o reprogramar?",
+        "a": "Avísame con al menos 24 horas de anticipación y buscamos juntos un nuevo horario."
+      }
+    ],
+    "more": "¿No viste tu pregunta?",
+    "moreLink": "Escríbeme directamente"
+  },
+  "contact": {
+    "eyebrow": "Contáctame",
+    "titleStart": "Da el primer paso hacia",
+    "titleEm": "tu equilibrio",
+    "titleEnd": ".",
+    "lead": "Escríbeme directamente o déjame un mensaje. Coordinamos una sesión individual o en grupo, según tu situación física, emocional o del alma.",
+    "whatsapp": "Escribir por WhatsApp",
+    "info": [
+      {
+        "icon": "pin",
+        "title": "Presencial",
+        "text": "Cl. 153A #21-50, Bucaramanga"
+      },
+      {
+        "icon": "screen",
+        "title": "Online",
+        "text": "Por videollamada, desde cualquier lugar"
+      },
+      {
+        "icon": "clock",
+        "title": "Horario",
+        "text": "Lunes a viernes 9:00 – 19:00 · Sábados 9:00 – 14:00"
+      },
+      {
+        "icon": "email",
+        "title": "Correo",
+        "text": "hola@tu-dominio.com"
+      }
+    ],
+    "formTitle": "Envíame tu consulta",
+    "formLead": "Te responderé pronto con los horarios disponibles.",
+    "fields": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono / WhatsApp",
+      "company": "Empresa",
+      "subject": "Asunto",
+      "therapy": "¿Qué te interesa?",
+      "message": "¿Cómo puedo ayudarte?"
+    },
+    "placeholders": {
+      "name": "Ej. Carolina Mendoza",
+      "email": "tucorreo@ejemplo.com",
+      "phone": "+57 300 000 0000",
+      "message": "Cuéntame brevemente qué te gustaría trabajar…"
+    },
+    "therapyGroups": [
+      {
+        "label": "Sesiones individuales",
+        "options": [
+          "Biomagnetismo",
+          "Liberación de emociones atrapadas",
+          "Terapia del alma y sistema familiar"
+        ]
+      },
+      {
+        "label": "Encuentros en grupo",
+        "options": [
+          "Constelaciones familiares",
+          "Círculos de liberación emocional",
+          "Meditación y armonización energética"
+        ]
+      }
+    ],
+    "therapyOther": "No estoy segura/o, quiero orientación",
+    "subject": "Nueva consulta desde la web de Gauss",
+    "send": "Solicitar información",
+    "sending": "Enviando…",
+    "ok": "¡Gracias! Recibí tu mensaje y te responderé pronto.",
+    "error": "No pudimos enviar el mensaje. Intenta de nuevo o escríbeme por WhatsApp.",
+    "invalid": "Revisa los campos marcados.",
+    "privacyStart": "Al enviar aceptas la",
+    "privacyLink": "política de tratamiento de datos"
+  },
+  "podcast": {
+    "eyebrow": "Podcast",
+    "titleStart": "Conversaciones para",
+    "titleEm": "sanar cuerpo y alma",
+    "titleEnd": "",
+    "lead": "Episodios en YouTube sobre biomagnetismo, emociones, sistema familiar y bienestar. Dale play y escúchalo donde estés.",
+    "channel": "Ver el canal",
+    "episode": "EP. {n}",
+    "note": "Los videos se cargan solo al dar play, para que la página abra rápido."
+  },
+  "video": {
+    "play": "Reproducir video: {title}",
+    "presentacion": {
+      "title": "Conóceme en 1 minuto",
+      "description": "Briggith Guzmán Chavarro cuenta cómo acompaña a sus pacientes con medicina alternativa."
+    },
+    "testimonio-1": {
+      "title": "Testimonio de Julieth",
+      "description": "Julieth cuenta cómo vivió su proceso de acompañamiento y bienestar en Gauss."
+    },
+    "testimonio-2": {
+      "title": "Testimonio de Diego Vargas: dejó de fumar",
+      "description": "Diego Vargas cuenta cómo logró dejar el hábito de fumar y empezar una nueva etapa para su cuerpo, mente y espíritu."
+    },
+    "testimonio-3": {
+      "title": "Testimonio de Johana",
+      "description": "Johana cuenta su experiencia con las terapias complementarias en Gauss."
+    },
+    "testimonio-4": {
+      "title": "Testimonio de Elvis Uriel",
+      "description": "Elvis Uriel cuenta cómo recuperó su equilibrio trabajando cuerpo, mente y emociones en Gauss."
+    },
+    "testimonio-5": {
+      "title": "Testimonio de Lutelia Gómez",
+      "description": "Lutelia Gómez agradece el acompañamiento en su proceso de sanación y equilibrio integral en Gauss."
+    },
+    "testimonio-6": {
+      "title": "Testimonio de José Páez",
+      "description": "José Páez cuenta cómo mejoró sus dolores crónicos y redujo su dependencia de los medicamentos con las terapias de Gauss."
+    },
+    "testimonio-7": {
+      "title": "Testimonio de Kelly",
+      "description": "Kelly cuenta cómo la acompañamos en el manejo de su embarazo y en su proceso de desintoxicación en Gauss."
+    },
+    "testimonio-8": {
+      "title": "Testimonio de Sherry Peterson",
+      "description": "Sherry Peterson viajó desde Estados Unidos para tratar sus problemas digestivos e intestinales en Gauss."
+    },
+    "podcast-1": {
+      "title": "Renacer sanando desde tu interior · Parte 1",
+      "description": "Briggith Guzmán conversa con Karol sobre cómo renacer sanando desde el interior. Episodio 1, parte 1."
+    },
+    "podcast-2": {
+      "title": "Renacer sanando desde tu interior · Parte 2",
+      "description": "Segunda parte de la conversación entre Briggith Guzmán y Karol sobre sanar desde el interior."
+    },
+    "podcast-3": {
+      "title": "Renacer sanando desde tu interior · Parte 3",
+      "description": "Cierre de la conversación entre Briggith Guzmán y Karol sobre renacer sanando desde el interior."
+    },
+    "podcast-4": {
+      "title": "Conecta con el dinero y la abundancia · Método Yuen",
+      "description": "Conversación con Christopher Olavarrieta sobre el Método Yuen y cómo conectar con el dinero y la abundancia."
+    }
+  },
+  "social": {
+    "eyebrow": "Redes sociales",
+    "titleStart": "Sígueme y acompáñame",
+    "titleEm": "en el día a día",
+    "titleEnd": "",
+    "lead": "Comparto consejos, videos cortos y novedades de los encuentros en Instagram, Facebook y YouTube.",
+    "posts": [
+      {
+        "kind": "reel",
+        "network": "instagram",
+        "badge": "Reel",
+        "caption": "Video publicitario",
+        "image": "/images/redes/post-1.jpg",
+        "alt": "Reel de Gauss en Instagram: todos ven tu sonrisa, pero nadie ve lo que cargas por dentro",
+        "url": "https://www.instagram.com/p/DdZ5v6hjfCw/"
+      },
+      {
+        "kind": "photo",
+        "network": "instagram",
+        "badge": "Instagram",
+        "caption": "",
+        "image": "/images/briggith-guzman.png",
+        "alt": "Briggith Guzmán Chavarro en el consultorio"
+      },
+      {
+        "kind": "post",
+        "network": "facebook",
+        "badge": "Facebook",
+        "caption": "Publicación de Facebook",
+        "image": "/images/redes/post-3.jpg",
+        "alt": "Publicación de Gauss en Facebook: a veces necesitas detenerte para volver a encontrarte",
+        "url": "https://www.facebook.com/reel/1542163910342611"
+      },
+      {
+        "kind": "reel",
+        "network": "youtube",
+        "badge": "Short",
+        "caption": "Video corto",
+        "image": "/images/redes/post-4.jpg",
+        "alt": "Short de Gauss en YouTube",
+        "url": "https://www.youtube.com/shorts/R6adV9ESyrc"
+      },
+      {
+        "kind": "logo",
+        "network": "instagram",
+        "badge": "Instagram",
+        "caption": "Novedades de los encuentros",
+        "image": "/images/redes/post-5.jpg",
+        "alt": "Novedades de Gauss en Instagram"
+      },
+      {
+        "kind": "post",
+        "network": "facebook",
+        "badge": "Facebook",
+        "caption": "Consejo de bienestar",
+        "image": "/images/redes/post-6.jpg",
+        "alt": "Consejo de bienestar de Gauss en Facebook: tu cuerpo puede estar pidiendo ayuda",
+        "url": "https://www.facebook.com/reel/1438556870819049"
+      }
+    ],
+    "follow": "Seguir en {network}"
+  },
+  "location": {
+    "eyebrow": "Ubicación",
+    "titleStart": "Te espero en",
+    "titleEm": "el consultorio",
+    "titleEnd": "",
+    "name": "Consultorio Gauss",
+    "hoursTitle": "Horario de atención",
+    "hours": [
+      "Lunes a viernes · 9:00 – 19:00",
+      "Sábados · 9:00 – 14:00, previa cita"
+    ],
+    "directions": "Cómo llegar",
+    "waze": "Abrir en Waze",
+    "online": "¿Estás lejos? También atiendo online.",
+    "mapTitle": "Mapa con la ubicación del consultorio Gauss"
+  },
+  "footer": {
+    "about": "Briggith Guzmán Chavarro · Terapeuta de medicina alternativa. Un espacio para la sanación bioenergética, el equilibrio emocional y la reconexión con tu bienestar.",
+    "explore": "Explora",
+    "hoursTitle": "Atención",
+    "contactTitle": "Contacto",
+    "privacy": "Tratamiento de datos",
+    "rights": "Todos los derechos reservados.",
+    "disclaimer": "La medicina alternativa es complementaria y no reemplaza el diagnóstico ni el tratamiento médico."
+  },
+  "mbar": {
+    "cta": "Agendar sesión",
+    "wa": "Escribir por WhatsApp"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de tratamiento de datos",
+      "description": "Cómo trata Gauss los datos personales que compartes en el formulario de contacto, según la Ley 1581 de 2012."
+    },
+    "title": "Política de tratamiento de datos personales",
+    "paragraphs": [
+      "Gauss, a cargo de Briggith Guzmán Chavarro, es responsable del tratamiento de los datos personales que compartes a través de este sitio web.",
+      "Los datos enviados en el formulario de contacto (nombre, correo, teléfono y mensaje) se usan únicamente para responder tu solicitud y coordinar tus sesiones. No se venden ni se comparten con terceros con fines comerciales.",
+      "De acuerdo con la Ley 1581 de 2012 y sus decretos reglamentarios, puedes conocer, actualizar, rectificar o pedir la eliminación de tus datos escribiendo a hola@tu-dominio.com.",
+      "La información que compartas durante las sesiones es confidencial."
+    ]
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "text": "La página que buscas no existe o fue movida.",
+    "back": "Volver al inicio"
+  }
+}

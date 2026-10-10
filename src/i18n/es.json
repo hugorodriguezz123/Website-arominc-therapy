@@ -76,16 +76,16 @@
       "Acompañamiento personalizado",
       "100% confidencial"
     ],
-    "imageAlt": "Briggith Guzmán Chavarro, terapeuta de medicina alternativa, con bata blanca y uniforme amarillo",
+    "imageAlt": "Briggith Guzmán Chavarro, terapeuta gauss, con bata blanca y uniforme amarillo",
     "badgeName": "Briggith Guzmán Chavarro",
-    "badgeRole": "Terapeuta de medicina alternativa"
+    "badgeRole": "Terapeuta energetica."
   },
   "about": {
     "eyebrow": "Sobre mí",
     "titleStart": "Hola, soy",
     "titleEm": "Briggith Guzmán Chavarro",
     "titleEnd": "",
-    "sub": "Terapeuta de medicina alternativa. Te acompaño con empatía, experiencia y respeto en tu regreso al equilibrio.",
+    "sub": "Terapeuta energetica. Te acompaño con empatía, experiencia y respeto en tu regreso al equilibrio.",
     "paragraphs": [
       "Creo que cada síntoma o malestar es un mensaje que tu cuerpo y tu alma te están dando. Mi propósito es acompañarte a comprender mejor lo que estás viviendo y a recuperar herramientas que favorezcan tu equilibrio integral.",
       "Más de 25 años de experiencia acompañando procesos de bienestar integral. El bienestar comienza cuando aprendemos a escuchar lo que nuestro cuerpo, nuestra mente y nuestras emociones nos están comunicando."
@@ -627,7 +627,7 @@
     "mapTitle": "Mapa con la ubicación del consultorio Gauss"
   },
   "footer": {
-    "about": "Briggith Guzmán Chavarro · Terapeuta de medicina alternativa. Un espacio para la sanación bioenergética, el equilibrio emocional y la reconexión con tu bienestar.",
+    "about": "Briggith Guzmán Chavarro · Terapeuta energetica. Un espacio para la sanación bioenergética, el equilibrio emocional y la reconexión con tu bienestar.",
     "explore": "Explora",
     "hoursTitle": "Atención",
     "contactTitle": "Contacto",

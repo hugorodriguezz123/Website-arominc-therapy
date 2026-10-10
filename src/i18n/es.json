@@ -15,23 +15,24 @@
     "videoDialog": "Reproductor de video",
     "newTab": "(se abre en una pestaña nueva)",
     "testimonialsTrack": "Videos de testimonios, desliza para ver más",
-    "podcastTrack": "Episodios del podcast, desliza para ver más"
+    "podcastTrack": "Episodios del podcast, desliza para ver más",
+    "servicesTrack": "Servicios, desliza para ver más"
   },
   "brand": {
-    "tagline": "Sanación del cuerpo y alma",
-    "home": "Gauss, sanación del cuerpo y alma. Ir al inicio"
+    "tagline": "Centro de Energía Vital",
+    "home": "Gauss, Centro de Energía Vital. Ir al inicio"
   },
   "nav": {
     "home": "Inicio",
-    "cta": "Agendar sesión",
+    "cta": "Agendar cita",
     "items": [
       {
         "label": "Sobre mí",
         "href": "#sobre-mi"
       },
       {
-        "label": "Terapias",
-        "href": "#terapias"
+        "label": "Servicios",
+        "href": "#servicios"
       },
       {
         "label": "Testimonios",
@@ -53,26 +54,26 @@
   },
   "home": {
     "meta": {
-      "title": "Gauss | Biomagnetismo y sanación del cuerpo y alma",
-      "description": "Briggith Guzmán Chavarro, terapeuta de medicina alternativa: biomagnetismo, liberación emocional y terapia del alma, presencial y online."
+      "title": "Gauss | Centro de Energía Vital",
+      "description": "Briggith Guzmán Chavarro: más de 25 años acompañando procesos de bienestar integral. Sesiones personalizadas para mente, cuerpo, emociones y energía."
     }
   },
   "intro": {
     "label": "Cargando Gauss"
   },
   "hero": {
-    "eyebrow": "Medicina alternativa · Biomagnetismo",
-    "titleStart": "Sana tu historia,",
-    "titleEm": "reconecta con tu bienestar",
-    "titleEnd": "y despierta tu luz interior.",
+    "eyebrow": "Mente • Cuerpo • Emociones • Energía",
+    "titleStart": "Un espacio para volver a conectar",
+    "titleEm": "mente, cuerpo y emociones",
+    "titleEnd": "y recuperar tu equilibrio.",
     "leadStart": "Soy",
-    "leadName": "Briggith Guzmán Chavarro",
-    "leadEnd": ", terapeuta de medicina alternativa. Te acompaño a recuperar el equilibrio entre tu cuerpo, tus emociones y tu alma, en un espacio cálido, sin juicios y a tu ritmo.",
-    "ctaPrimary": "Agendar mi primera consulta",
-    "ctaSecondary": "Ver terapias",
+    "leadName": "Briggith Guzmán",
+    "leadEnd": ", terapeuta energética. Te acompaño a recuperar el equilibrio entre tu cuerpo, tus emociones y tu mente, en un espacio cálido, sin juicios y a tu ritmo.",
+    "ctaPrimary": "Agendar mi primera cita",
+    "ctaSecondary": "Ver servicios",
     "checks": [
       "Presencial y online",
-      "Sesiones individuales y en grupo",
+      "Acompañamiento personalizado",
       "100% confidencial"
     ],
     "imageAlt": "Briggith Guzmán Chavarro, terapeuta de medicina alternativa, con bata blanca y uniforme amarillo",
@@ -86,8 +87,8 @@
     "titleEnd": "",
     "sub": "Terapeuta de medicina alternativa. Te acompaño con empatía, experiencia y respeto en tu regreso al equilibrio.",
     "paragraphs": [
-      "Creo que cada síntoma o malestar es un mensaje que tu cuerpo y tu alma te están dando. Mi labor no es juzgarte ni darte recetas genéricas, sino ofrecerte una guía profesional y amorosa para que reconectes con tu propia sabiduría.",
-      "Me he formado en biomagnetismo, decodificación biológica y técnicas de liberación emocional, y he acompañado a cientos de personas a recuperar su vitalidad, soltar dolores que se repetían y cerrar ciclos del pasado con paz."
+      "Creo que cada síntoma o malestar es un mensaje que tu cuerpo y tu alma te están dando. Mi propósito es acompañarte a comprender mejor lo que estás viviendo y a recuperar herramientas que favorezcan tu equilibrio integral.",
+      "Más de 25 años de experiencia acompañando procesos de bienestar integral. El bienestar comienza cuando aprendemos a escuchar lo que nuestro cuerpo, nuestra mente y nuestras emociones nos están comunicando."
     ],
     "stats": [
       {
@@ -100,7 +101,7 @@
       },
       {
         "value": "2",
-        "label": "Modalidades: presencial y online"
+        "label": "Modalidades: presencial y a distancia"
       }
     ],
     "imageAlt": "Retrato de Briggith Guzmán Chavarro",
@@ -114,121 +115,181 @@
     "intro": "Abordo tu salud como un sistema conectado: cuando una parte vuelve al equilibrio, todo lo demás lo siente.",
     "items": [
       {
-        "icon": "body",
-        "title": "Cuerpo",
-        "text": "Biomagnetismo para equilibrar el pH, aliviar tensiones y favorecer un descanso profundo."
-      },
-      {
         "icon": "mind",
         "title": "Mente",
-        "text": "Herramientas para soltar creencias limitantes, bajar la sobrecarga mental y recuperar la calma."
+        "text": "Identificamos pensamientos repetitivos o negativos y patrones mentales que pueden estar generando malestar."
+      },
+      {
+        "icon": "body",
+        "title": "Cuerpo",
+        "text": "Trabajamos la tensión y el agotamiento, estimulando procesos de relajación y autorregulación."
       },
       {
         "icon": "heart",
         "title": "Emociones",
-        "text": "Liberación de emociones atrapadas para que vuelvas a sentir ligereza y paz."
+        "text": "Liberamos bloqueos, emociones atrapadas o no procesadas y experiencias que aún generan carga."
       },
       {
         "icon": "energy",
         "title": "Energía",
-        "text": "Armonización energética para recuperar tu vitalidad y tu entusiasmo."
-      },
-      {
-        "icon": "family",
-        "title": "Sistema familiar",
-        "text": "Una mirada a tus raíces para sanar cargas heredadas y patrones que se repiten."
+        "text": "Armonización integral para recuperar tu calma, tu claridad y tu sensación de equilibrio."
       }
     ]
   },
-  "therapies": {
-    "eyebrow": "Servicios y terapias",
-    "titleStart": "Caminos de sanación",
-    "titleEm": "diseñados para ti",
+  "services": {
+    "eyebrow": "Servicios",
+    "titleStart": "Terapias para",
+    "titleEm": "tu bienestar integral",
     "titleEnd": "",
-    "lead": "Cada persona es un universo único. Elige si quieres vivir tu proceso a solas o en compañía.",
-    "tabsLabel": "Tipo de terapia",
-    "tabIndividual": "Individuales",
-    "tabGroup": "En grupo",
-    "individualTitle": "Sesiones individuales",
-    "groupTitle": "Encuentros en grupo",
-    "individual": [
+    "lead": "Cada servicio parte de una valoración individual y se adapta a lo que necesitas. Desliza para conocerlos y agenda tu cita directamente por WhatsApp.",
+    "cta": "Agendar cita",
+    "bookMessage": "Hola Briggith, quiero agendar una cita para: {service}",
+    "items": [
       {
-        "key": "biomagnetismo",
-        "badge": "Individual",
-        "title": "Biomagnetismo",
-        "text": "Con pares de imanes localizamos y equilibramos los puntos de desbalance de pH en tu cuerpo. Un acompañamiento complementario para aliviar molestias y recuperar tu vitalidad.",
-        "mode": "Presencial",
-        "modeIcon": "pin",
-        "duration": "60 min",
-        "cta": "Agendar biomagnetismo",
-        "imageAlt": "Sesión de biomagnetismo en el consultorio",
-        "placeholder": "Foto: sesión de biomagnetismo"
+        "key": "cronicas",
+        "title": "Terapias para enfermedades crónicas",
+        "text": "Acompañamiento complementario a tu tratamiento médico para afrontar síntomas persistentes y favorecer tu recuperación natural.",
+        "benefits": [
+          "Refuerza tu sistema inmunológico",
+          "Reduce síntomas persistentes",
+          "Promueve la recuperación natural"
+        ]
       },
       {
-        "key": "liberacion-emocional",
-        "badge": "Individual",
-        "title": "Liberación de emociones atrapadas",
-        "text": "Identificamos y soltamos cargas emocionales del pasado que se manifiestan como ansiedad, bloqueos o tensión en el cuerpo, para que vuelvas a sentir ligereza y paz.",
-        "mode": "Presencial u online",
-        "modeIcon": "screen",
-        "duration": "60 min",
-        "cta": "Liberar mis emociones",
-        "imageAlt": "Sesión de liberación emocional",
-        "placeholder": "Foto: liberación emocional"
+        "key": "salud",
+        "title": "Renueva tu salud",
+        "text": "Una terapia integral con apoyo emocional y seguimiento, pensada para una mejora continua.",
+        "benefits": [
+          "Apoyo emocional",
+          "Terapia integral",
+          "Mejora continua"
+        ]
       },
       {
-        "key": "terapia-alma",
-        "badge": "Individual",
-        "title": "Terapia del alma y sistema familiar",
-        "text": "Una mirada profunda para sanar lealtades invisibles, ordenar tu sistema familiar y disolver patrones que se repiten en el amor, la abundancia y tu propósito.",
-        "mode": "Presencial u online",
-        "modeIcon": "screen",
-        "duration": "90 min",
-        "cta": "Agendar sesión del alma",
-        "imageAlt": "Sesión de terapia del alma",
-        "placeholder": "Foto: terapia del alma"
+        "key": "energia",
+        "title": "Activa tu energía",
+        "text": "Recupera tu vitalidad y tu entusiasmo estimulando el equilibrio de tu sistema.",
+        "benefits": [
+          "Aumenta tu vitalidad",
+          "Mejora el ánimo",
+          "Estimula tu sistema"
+        ]
+      },
+      {
+        "key": "inmune",
+        "title": "Refuerza tu sistema inmune",
+        "text": "Apoyo complementario para depurar tu organismo, fortalecer tus defensas y mejorar tu energía.",
+        "benefits": [
+          "Depura toxinas",
+          "Aumenta tus defensas",
+          "Mejora tu energía"
+        ]
+      },
+      {
+        "key": "depura",
+        "title": "Depura tu organismo",
+        "text": "Una limpieza física y energética para favorecer tu digestión y fortalecer tu sistema.",
+        "benefits": [
+          "Mejora la digestión",
+          "Limpieza energética",
+          "Un sistema más fuerte"
+        ]
+      },
+      {
+        "key": "detox",
+        "title": "Detox iónico",
+        "text": "Purifica tu cuerpo con una terapia de desintoxicación que favorece tu energía y tu bienestar general.",
+        "benefits": [
+          "Elimina toxinas del cuerpo",
+          "Aumenta tu energía y vitalidad",
+          "Mejora tu bienestar general"
+        ]
+      },
+      {
+        "key": "desintoxica",
+        "title": "Desintoxica tu cuerpo",
+        "text": "Ayuda a tu cuerpo a liberar toxinas mientras equilibras tu mente y recuperas tu vitalidad.",
+        "benefits": [
+          "Elimina toxinas",
+          "Aumenta tu energía",
+          "Mejora tu bienestar"
+        ]
+      },
+      {
+        "key": "sana",
+        "title": "Sana desde adentro",
+        "text": "Acompañamiento para liberar emociones, equilibrar tu mente y reconectar con tu esencia.",
+        "benefits": [
+          "Libera emociones",
+          "Equilibra tu mente",
+          "Conecta con tu esencia"
+        ]
+      },
+      {
+        "key": "paz",
+        "title": "Paz y bienestar",
+        "text": "Un espacio para bajar la carga mental, soltar la tensión y recuperar la calma y la claridad.",
+        "benefits": [
+          "Libera la ansiedad",
+          "Reduce el estrés",
+          "Mejora tu enfoque"
+        ]
+      },
+      {
+        "key": "armonia",
+        "title": "Recupera tu armonía emocional",
+        "text": "Trabajamos sobre emociones atrapadas y experiencias que aún pesan, para que vuelvas a sentir calma y ligereza.",
+        "benefits": [
+          "Libera emociones atrapadas",
+          "Sana heridas del pasado",
+          "Mejora tu estado de ánimo"
+        ]
+      },
+      {
+        "key": "transforma",
+        "title": "Terapias que transforman vidas",
+        "text": "Un acompañamiento integral para renovar tu bienestar y transformar tu energía, sanando desde adentro.",
+        "benefits": [
+          "Renueva tu bienestar",
+          "Transforma tu energía",
+          "Sanación desde adentro"
+        ]
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Proceso de equilibrio y bienestar integral",
+    "titleStart": "Un acompañamiento",
+    "titleEm": "hecho a tu medida",
+    "titleEnd": "",
+    "lead": "Cada persona es única: por eso cada proceso parte de una valoración individual y se adapta a tu evolución.",
+    "steps": [
+      {
+        "title": "Valoración individual",
+        "text": "Identificamos lo que interfiere con tu bienestar: pensamientos repetitivos, emociones no procesadas, tensión o agotamiento."
+      },
+      {
+        "title": "Sesiones de 2 horas",
+        "text": "Un abordaje integral y personalizado de mente, cuerpo, emociones y energía."
+      },
+      {
+        "title": "Programa de 3 sesiones",
+        "text": "Se recomienda iniciar con 3 sesiones consecutivas y luego definir continuidad o mantenimiento."
       }
     ],
-    "group": [
+    "more": "Conoce más sobre el proceso y la inversión",
+    "offers": [
       {
-        "key": "constelaciones",
-        "badge": "En grupo",
-        "title": "Constelaciones familiares",
-        "text": "Un encuentro en grupo para mirar tu sistema familiar, ordenar vínculos y liberar cargas que se repiten de generación en generación.",
-        "mode": "Presencial",
-        "modeIcon": "pin",
-        "duration": "12 cupos",
-        "cta": "Reservar mi cupo",
-        "imageAlt": "Encuentro de constelaciones familiares",
-        "placeholder": "Foto: constelación en grupo"
+        "name": "Sesión individual (aprox. 2 horas)",
+        "price": 200,
+        "currency": "USD"
       },
       {
-        "key": "circulos",
-        "badge": "En grupo",
-        "title": "Círculos de liberación emocional",
-        "text": "Espacios guiados para soltar en compañía lo que pesa, con ejercicios de conciencia, escucha y un acompañamiento amoroso.",
-        "mode": "Presencial u online",
-        "modeIcon": "screen",
-        "duration": "10 cupos",
-        "cta": "Reservar mi cupo",
-        "imageAlt": "Círculo de liberación emocional",
-        "placeholder": "Foto: círculo grupal"
-      },
-      {
-        "key": "meditacion",
-        "badge": "En grupo",
-        "title": "Meditación y armonización energética",
-        "text": "Sesiones grupales para recuperar la calma, armonizar tu energía y crear un hábito de bienestar que puedas sostener en casa.",
-        "mode": "Online",
-        "modeIcon": "screen",
-        "duration": "45 min",
-        "cta": "Reservar mi cupo",
-        "imageAlt": "Meditación grupal online",
-        "placeholder": "Foto: meditación grupal"
+        "name": "Programa inicial de 3 sesiones",
+        "price": 600,
+        "currency": "USD"
       }
-    ],
-    "groupNote": "Las fechas de los próximos encuentros se publican en Instagram.",
-    "groupNoteLink": "Quiero que me avisen"
+    ]
   },
   "testimonials": {
     "eyebrow": "Testimonios",
@@ -286,49 +347,96 @@
     "titleStart": "Cosas que la gente pregunta",
     "titleEm": "antes de contactarme",
     "titleEnd": "",
-    "items": [
-      {
-        "q": "¿Dónde atiendes?",
-        "a": "Atiendo de forma presencial en el consultorio Gauss y también online por videollamada, desde cualquier lugar."
-      },
-      {
-        "q": "¿Cómo funcionan las sesiones online?",
-        "a": "Nos conectamos por videollamada a la hora acordada. Solo necesitas un lugar tranquilo, buena conexión y audífonos. La liberación emocional y la terapia del alma se pueden hacer a distancia; el biomagnetismo se realiza de forma presencial."
-      },
-      {
-        "q": "¿Cuánto cuesta una sesión?",
-        "a": "El valor depende del tipo de sesión y de si es individual o en grupo. Escríbeme y te comparto las tarifas y los paquetes disponibles."
-      },
-      {
-        "q": "¿Qué pasa en la primera sesión?",
-        "a": "Conversamos sobre lo que te trae, revisamos tu historia y definimos el camino a seguir. Después hacemos la primera intervención para que sientas cómo trabajamos."
-      },
-      {
-        "q": "¿La terapia reemplaza mi tratamiento médico?",
-        "a": "No. La medicina alternativa es un acompañamiento complementario: no reemplaza el diagnóstico ni el tratamiento de tu médico. Si tienes un tratamiento en curso, no lo suspendas."
-      },
-      {
-        "q": "¿Cuántas sesiones voy a necesitar?",
-        "a": "Depende de cada persona y de lo que quieras trabajar. En la primera consulta te doy una orientación según tu caso y la vamos ajustando sobre la marcha."
-      },
-      {
-        "q": "¿En qué se diferencian las sesiones individuales de las grupales?",
-        "a": "En la sesión individual el espacio es solo para ti y tu proceso. En los encuentros en grupo trabajamos en compañía, y eso suma apoyo, escucha y la experiencia de otras personas."
-      },
-      {
-        "q": "¿Qué pasa si necesito cancelar o reprogramar?",
-        "a": "Avísame con al menos 24 horas de anticipación y buscamos juntos un nuevo horario."
-      }
-    ],
     "more": "¿No viste tu pregunta?",
-    "moreLink": "Escríbeme directamente"
+    "moreLink": "Escríbeme directamente",
+    "groups": [
+      {
+        "title": "El proceso",
+        "items": [
+          {
+            "q": "¿En qué consiste el proceso de equilibrio y bienestar integral?",
+            "a": "Es un acompañamiento individual que parte de una valoración de cada persona. Durante la sesión hacemos un abordaje integral para identificar lo que puede estar interfiriendo con tu bienestar: pensamientos repetitivos o negativos, bloqueos emocionales, emociones no procesadas, tensión o agotamiento."
+          },
+          {
+            "q": "¿Qué se trabaja durante la sesión?",
+            "a": "Identificamos patrones mentales y emocionales que generan malestar, trabajamos emociones atrapadas o experiencias que aún pesan, favorecemos la liberación de bloqueos y tensiones, y estimulamos procesos de relajación, autorregulación y armonización integral, explorando la relación entre lo emocional, lo mental, lo físico y lo energético."
+          },
+          {
+            "q": "¿Cómo sé qué servicio es el indicado para mí?",
+            "a": "No necesitas saberlo de antemano. En la valoración individual identificamos lo que necesitas y definimos el abordaje. Si tienes dudas, escríbeme y te oriento antes de agendar."
+          },
+          {
+            "q": "¿Para quién es este acompañamiento?",
+            "a": "Para quien siente que algo en su vida perdió el equilibrio: pensamientos que se repiten, emociones que pesan, tensión, cansancio o una sensación general de desequilibrio, y quiere recuperar la calma, la claridad y sus propios recursos de bienestar."
+          },
+          {
+            "q": "¿Este acompañamiento reemplaza mi tratamiento médico?",
+            "a": "Este acompañamiento es complementario y no sustituye la valoración, el diagnóstico ni el tratamiento realizado por profesionales de la salud cuando estos sean necesarios. Si tienes un tratamiento en curso, no lo suspendas."
+          }
+        ]
+      },
+      {
+        "title": "Las sesiones",
+        "items": [
+          {
+            "q": "¿Qué pasa en la primera sesión?",
+            "a": "Empezamos con una valoración individual: conversamos sobre lo que estás viviendo y lo que te trae. A partir de ahí realizamos el abordaje integral, adaptado a tus necesidades."
+          },
+          {
+            "q": "¿Cuánto dura una sesión?",
+            "a": "Cada encuentro dura aproximadamente 2 horas, dependiendo de tus necesidades particulares. El proceso es personalizado y cada sesión se adapta a tu evolución."
+          },
+          {
+            "q": "¿Cuántas sesiones voy a necesitar?",
+            "a": "Para iniciar el proceso se recomiendan 3 sesiones consecutivas, que dan continuidad al trabajo y permiten observar tu evolución. Después, según la valoración y tu respuesta individual, definimos si conviene continuar con nuevas sesiones o pasar a un esquema de mantenimiento."
+          },
+          {
+            "q": "¿Qué es el esquema de mantenimiento?",
+            "a": "Si después del programa inicial la valoración lo indica, establecemos sesiones de seguimiento para sostener el equilibrio alcanzado. La frecuencia se define según tu evolución."
+          },
+          {
+            "q": "¿Dónde atiendes?",
+            "a": "Atiendo de forma presencial en el consultorio Gauss, en Bucaramanga, y también online por videollamada, desde cualquier lugar."
+          },
+          {
+            "q": "¿Cómo funcionan las sesiones online?",
+            "a": "Nos conectamos por videollamada a la hora acordada. Solo necesitas un lugar tranquilo, donde puedas estar sin interrupciones durante la sesión, buena conexión y audífonos."
+          }
+        ]
+      },
+      {
+        "title": "Inversión y agenda",
+        "items": [
+          {
+            "q": "¿Cuánto cuesta una sesión?",
+            "a": "Cada sesión tiene un valor de USD $200 y una duración aproximada de 2 horas. Es un acompañamiento individual y personalizado."
+          },
+          {
+            "q": "¿Cuánto cuesta el programa inicial de 3 sesiones?",
+            "a": "El programa inicial recomendado incluye 3 sesiones consecutivas de aproximadamente 2 horas y tiene un valor total de USD $600 (USD $200 por sesión)."
+          },
+          {
+            "q": "¿Después del programa inicial debo seguir pagando sesiones?",
+            "a": "Solo si lo necesitas. Al terminar las 3 sesiones valoramos tu evolución y definimos juntos si conviene continuar con nuevas sesiones (USD $200 cada una) o pasar a un esquema de mantenimiento."
+          },
+          {
+            "q": "¿Cómo agendo mi primera cita?",
+            "a": "Desde cualquier servicio, con el botón «Agendar cita», me escribes por WhatsApp con el mensaje listo. También puedes escribirme a redesgauss@gmail.com o dejar tus datos en el formulario de contacto."
+          },
+          {
+            "q": "¿Qué pasa si necesito cancelar o reprogramar?",
+            "a": "Avísame con al menos 24 horas de anticipación y buscamos juntos un nuevo horario."
+          }
+        ]
+      }
+    ]
   },
   "contact": {
     "eyebrow": "Contáctame",
     "titleStart": "Da el primer paso hacia",
     "titleEm": "tu equilibrio",
     "titleEnd": ".",
-    "lead": "Escríbeme directamente o déjame un mensaje. Coordinamos una sesión individual o en grupo, según tu situación física, emocional o del alma.",
+    "lead": "Escríbeme directamente o déjame un mensaje. Resolvemos tus dudas sobre el proceso y coordinamos tu primera sesión.",
     "whatsapp": "Escribir por WhatsApp",
     "info": [
       {
@@ -349,7 +457,7 @@
       {
         "icon": "email",
         "title": "Correo",
-        "text": "hola@tu-dominio.com"
+        "text": "redesgauss@gmail.com"
       }
     ],
     "formTitle": "Envíame tu consulta",
@@ -369,24 +477,6 @@
       "phone": "+57 300 000 0000",
       "message": "Cuéntame brevemente qué te gustaría trabajar…"
     },
-    "therapyGroups": [
-      {
-        "label": "Sesiones individuales",
-        "options": [
-          "Biomagnetismo",
-          "Liberación de emociones atrapadas",
-          "Terapia del alma y sistema familiar"
-        ]
-      },
-      {
-        "label": "Encuentros en grupo",
-        "options": [
-          "Constelaciones familiares",
-          "Círculos de liberación emocional",
-          "Meditación y armonización energética"
-        ]
-      }
-    ],
     "therapyOther": "No estoy segura/o, quiero orientación",
     "subject": "Nueva consulta desde la web de Gauss",
     "send": "Solicitar información",
@@ -402,7 +492,7 @@
     "titleStart": "Conversaciones para",
     "titleEm": "sanar cuerpo y alma",
     "titleEnd": "",
-    "lead": "Episodios en YouTube sobre biomagnetismo, emociones, sistema familiar y bienestar. Dale play y escúchalo donde estés.",
+    "lead": "Episodios en YouTube sobre emociones, sanación interior y bienestar. Dale play y escúchalo donde estés.",
     "channel": "Ver el canal",
     "episode": "EP. {n}",
     "note": "Los videos se cargan solo al dar play, para que la página abra rápido."
@@ -456,10 +546,6 @@
     "podcast-3": {
       "title": "Renacer sanando desde tu interior · Parte 3",
       "description": "Cierre de la conversación entre Briggith Guzmán y Karol sobre renacer sanando desde el interior."
-    },
-    "podcast-4": {
-      "title": "Conecta con el dinero y la abundancia · Método Yuen",
-      "description": "Conversación con Christopher Olavarrieta sobre el Método Yuen y cómo conectar con el dinero y la abundancia."
     }
   },
   "social": {
@@ -467,7 +553,7 @@
     "titleStart": "Sígueme y acompáñame",
     "titleEm": "en el día a día",
     "titleEnd": "",
-    "lead": "Comparto consejos, videos cortos y novedades de los encuentros en Instagram, Facebook y YouTube.",
+    "lead": "Comparto consejos, videos cortos y novedades en Instagram, Facebook y YouTube.",
     "posts": [
       {
         "kind": "reel",
@@ -508,7 +594,7 @@
         "kind": "logo",
         "network": "instagram",
         "badge": "Instagram",
-        "caption": "Novedades de los encuentros",
+        "caption": "Novedades de Gauss",
         "image": "/images/redes/post-5.jpg",
         "alt": "Novedades de Gauss en Instagram"
       },
@@ -547,10 +633,10 @@
     "contactTitle": "Contacto",
     "privacy": "Tratamiento de datos",
     "rights": "Todos los derechos reservados.",
-    "disclaimer": "La medicina alternativa es complementaria y no reemplaza el diagnóstico ni el tratamiento médico."
+    "disclaimer": "Este acompañamiento es complementario y no sustituye la valoración, el diagnóstico ni el tratamiento realizado por profesionales de la salud cuando estos sean necesarios."
   },
   "mbar": {
-    "cta": "Agendar sesión",
+    "cta": "Agendar cita",
     "wa": "Escribir por WhatsApp"
   },
   "privacy": {
@@ -562,7 +648,7 @@
     "paragraphs": [
       "Gauss, a cargo de Briggith Guzmán Chavarro, es responsable del tratamiento de los datos personales que compartes a través de este sitio web.",
       "Los datos enviados en el formulario de contacto (nombre, correo, teléfono y mensaje) se usan únicamente para responder tu solicitud y coordinar tus sesiones. No se venden ni se comparten con terceros con fines comerciales.",
-      "De acuerdo con la Ley 1581 de 2012 y sus decretos reglamentarios, puedes conocer, actualizar, rectificar o pedir la eliminación de tus datos escribiendo a hola@tu-dominio.com.",
+      "De acuerdo con la Ley 1581 de 2012 y sus decretos reglamentarios, puedes conocer, actualizar, rectificar o pedir la eliminación de tus datos escribiendo a redesgauss@gmail.com.",
       "La información que compartas durante las sesiones es confidencial."
     ]
   },

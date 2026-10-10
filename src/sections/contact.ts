@@ -18,7 +18,7 @@ const autocomplete: Record<string, string> = { name: "name", email: "email", pho
 export function contact({ t, locale }: RenderCtx, id = "contacto") {
   const c = config.contact;
   const info = t.list<{ icon: string; title: string; text: string }>("contact.info");
-  const groups = t.list<{ label: string; options: string[] }>("contact.therapyGroups");
+  const options = t.list<{ title: string }>("services.items").map((s) => s.title);
   const ph = (f: string) => { const v = t(`contact.placeholders.${f}`); return v.startsWith("contact.") ? undefined : v; };
 
   const field = (f: string) => {
@@ -27,7 +27,7 @@ export function contact({ t, locale }: RenderCtx, id = "contacto") {
       <textarea name="message" rows="4" required minlength="10" maxlength="5000"${attrs({ placeholder: ph(f) })}></textarea></label>`;
     if (f === "therapy") return html`<label class="field"><span>${label}</span>
       <select name="therapy">
-        ${groups.map((g) => html`<optgroup label="${g.label}">${g.options.map((o) => html`<option>${o}</option>`)}</optgroup>`)}
+        ${options.map((o) => html`<option>${o}</option>`)}
         <option>${t("contact.therapyOther")}</option>
       </select></label>`;
     return html`<label class="field"><span>${label}</span>
@@ -45,7 +45,8 @@ export function contact({ t, locale }: RenderCtx, id = "contacto") {
           <a class="btn btn-ghost btn-lg" href="${whatsappUrl()}" target="_blank" rel="noopener">${icon("whatsapp", 20, "wa")}${t("contact.whatsapp")}</a>
         </div>
         <ul class="info-list" role="list">
-          ${info.map((i) => html`<li><span class="info-ico">${icon(i.icon, 20)}</span><span><strong>${i.title}</strong>${i.text}</span></li>`)}
+          ${info.map((i) => html`<li><span class="info-ico">${icon(i.icon, 20)}</span><span><strong>${i.title}</strong>${
+            i.icon === "email" ? html`<a href="mailto:${i.text}">${i.text}</a>` : i.text}</span></li>`)}
         </ul>
       </div>
       ${c.provider === "none" ? "" : html`

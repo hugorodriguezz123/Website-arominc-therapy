@@ -143,29 +143,6 @@ function videoModal() {
   dlg.addEventListener("close", () => frame.replaceChildren());
 }
 
-/* ---------- Pestañas accesibles (terapias individuales / en grupo) ---------- */
-function tabs() {
-  $$("[data-tabs]").forEach((list) => {
-    const tabs = $$<HTMLButtonElement>("[role=tab]", list);
-    const select = (tab: HTMLButtonElement, focus = false) => {
-      tabs.forEach((t) => {
-        const on = t === tab;
-        t.setAttribute("aria-selected", String(on));
-        t.tabIndex = on ? 0 : -1;
-        document.getElementById(t.getAttribute("aria-controls")!)?.toggleAttribute("hidden", !on);
-      });
-      if (focus) tab.focus();
-    };
-    tabs.forEach((tab, i) => {
-      tab.addEventListener("click", () => select(tab));
-      tab.addEventListener("keydown", (e) => {
-        const step = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
-        if (step) { e.preventDefault(); select(tabs[(i + step + tabs.length) % tabs.length]!, true); }
-      });
-    });
-  });
-}
-
 /* ---------- Carruseles: flechas sobre el desplazamiento nativo (táctil y teclado funcionan solos) ---------- */
 function carousels() {
   $$("[data-carousel]").forEach((c) => {
@@ -233,6 +210,5 @@ reveal();
 lazyMisc();
 videos();
 videoModal();
-tabs();
 carousels();
 contactForm();

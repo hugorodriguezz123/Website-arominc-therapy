@@ -182,7 +182,7 @@ ${body}
   <button class="icon-btn vdialog-close" type="button" data-video-close aria-label="${t("a11y.close")}">${icon("close", 22)}</button>
   <div class="vdialog-frame" data-video-frame></div>
 </dialog>
-<noscript><style>.site-nav{display:block!important}.theme-toggle,.menu-toggle{display:none}.reveal{opacity:1!important;transform:none!important}[data-tabpanel][hidden]{display:grid!important}.tabs,.car-nav{display:none!important}.intro{display:none!important}</style></noscript>
+<noscript><style>.site-nav{display:block!important}.theme-toggle,.menu-toggle{display:none}.reveal{opacity:1!important;transform:none!important}.car-nav{display:none!important}.intro{display:none!important}</style></noscript>
 </body>
 </html>`;
 }

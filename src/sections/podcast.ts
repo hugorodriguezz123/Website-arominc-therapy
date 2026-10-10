@@ -37,7 +37,6 @@ export function podcast(ctx: RenderCtx, id = "podcast") {
           <p class="ep-meta">${icon("youtube", 16)}YouTube</p>
         </li>`)}
       </ul>
-      <p class="pod-note">${t("podcast.note")}</p>
     </div>
   </section>`;
 }

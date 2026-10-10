@@ -6,7 +6,7 @@ import { wave } from "../lib/ui";
 import { hero, HERO_IMAGE, HERO_SIZES } from "../sections/hero";
 import { about } from "../sections/about";
 import { help } from "../sections/help";
-import { therapies } from "../sections/therapies";
+import { services, processSteps, type Service } from "../sections/services";
 import { testimonials } from "../sections/testimonials";
 import { faq } from "../sections/faq";
 import { contact } from "../sections/contact";
@@ -23,7 +23,8 @@ export default definePage({
   lcpImage: { src: HERO_IMAGE, sizes: HERO_SIZES },
   meta: (t) => {
     const org = `${config.url}/#organization`;
-    const services = [...t.list<{ title: string; text: string }>("therapies.individual"), ...t.list<{ title: string; text: string }>("therapies.group")];
+    const area = config.seo.organization.address?.country ?? "CO";
+    const offers = t.list<{ name: string; price: number; currency: string }>("process.offers");
     return {
       title: t("home.meta.title"),
       description: t("home.meta.description"),
@@ -37,14 +38,22 @@ export default definePage({
           image: absolute("/images/og.jpg"),
           worksFor: { "@id": org },
         },
-        ...services.map((s) => ({
+        {
           "@type": "Service",
-          name: s.title,
-          description: s.text,
+          name: t("process.eyebrow"),
+          description: t("process.lead"),
           serviceType: "Medicina alternativa",
           provider: { "@id": org },
-          areaServed: config.seo.organization.address?.country ?? "CO",
-        })),
+          areaServed: area,
+          offers: offers.map((o) => ({ "@type": "Offer", name: o.name, price: o.price, priceCurrency: o.currency })),
+          hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: t("services.eyebrow"),
+            itemListElement: t.list<Service>("services.items").map((s) => ({
+              "@type": "Offer", itemOffered: { "@type": "Service", name: s.title },
+            })),
+          },
+        },
       ],
     };
   },
@@ -55,19 +64,21 @@ export default definePage({
     ${wave("mist", "white", 1)}
     ${help(ctx)}
     ${wave("white", "ground", 0)}
-    ${therapies(ctx)}
-    ${wave("ground", "mist", 1)}
-    ${testimonials(ctx)}
-    ${wave("mist", "white", 0)}
-    ${faq(ctx)}
-    ${wave("white", "mist", 1)}
-    ${contact(ctx)}
-    ${wave("mist", "night", 0)}
-    ${podcast(ctx)}
-    ${wave("night", "white", 1)}
-    ${social(ctx)}
+    ${services(ctx)}
+    ${wave("ground", "white", 1)}
+    ${processSteps(ctx)}
     ${wave("white", "mist", 0)}
-    ${location(ctx)}
+    ${testimonials(ctx)}
+    ${wave("mist", "white", 1)}
+    ${faq(ctx)}
+    ${wave("white", "mist", 0)}
+    ${contact(ctx)}
     ${wave("mist", "night", 1)}
+    ${podcast(ctx)}
+    ${wave("night", "white", 0)}
+    ${social(ctx)}
+    ${wave("white", "mist", 1)}
+    ${location(ctx)}
+    ${wave("mist", "night", 0)}
   `,
 });

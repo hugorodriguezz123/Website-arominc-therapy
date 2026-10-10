@@ -22,7 +22,7 @@ export default defineConfig({
     organization: {
       type: "LocalBusiness",                  // atiende en un consultorio físico → panel local de Google
       logo: "/images/logo.png",
-      email: "hola@tu-dominio.com",           // TODO
+      email: "redesgauss@gmail.com",
       telephone: "+57 301 600 7200",
       address: {
         street: "Cl. 153A #21-50",
@@ -85,8 +85,6 @@ export default defineConfig({
       title: "video.podcast-2.title", description: "video.podcast-2.description", uploadDate: "2025-07-29", duration: "PT14M1S" },
     { key: "podcast-3", group: "podcast", source: { provider: "youtube", id: "FwK19GlcbLc" },
       title: "video.podcast-3.title", description: "video.podcast-3.description", uploadDate: "2025-07-29", duration: "PT13M45S" },
-    { key: "podcast-4", group: "podcast", source: { provider: "youtube", id: "uQmfD6_hjaQ" },
-      title: "video.podcast-4.title", description: "video.podcast-4.description", uploadDate: "2024-09-17", duration: "PT1H20M59S" },
   ],
 
   // Hosting estático → Web3Forms. Crea tu clave gratis en https://web3forms.com con el correo que recibirá los mensajes.

@@ -26,7 +26,7 @@ export function hero(ctx: RenderCtx) {
         <p class="lead">${t("hero.leadStart")} <strong>${t("hero.leadName")}</strong>${t("hero.leadEnd")}</p>
         <div class="actions">
           <a class="btn btn-primary btn-lg" href="#contacto">${t("hero.ctaPrimary")}${icon("arrow", 18)}</a>
-          <a class="btn btn-ghost btn-lg" href="#terapias">${t("hero.ctaSecondary")}</a>
+          <a class="btn btn-ghost btn-lg" href="#servicios">${t("hero.ctaSecondary")}</a>
         </div>
         <ul class="checks" role="list">
           ${t.list<string>("hero.checks").map((c, i) => html`<li>${icon("check", 18, `tone-${i}`)}${c}</li>`)}

@@ -5,7 +5,7 @@ import { defineConfig } from "./src/lib/types";
  * Los valores entre "TU_…" o con 0000 son de ejemplo: cámbialos antes de publicar (ver README).
  */
 export default defineConfig({
-  url: "https://www.tu-dominio.com",          // TODO: dominio real, sin barra final
+  url: "https://www.saludgauss.com",          // TODO: dominio real, sin barra final
   name: "Gauss",
 
   // Sitio solo en español. Para añadir inglés: ["es", "en"] + src/i18n/en.json (ver README).

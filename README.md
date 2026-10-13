@@ -68,5 +68,5 @@ CMD ["bun", "run", "src/server/serve.ts"]
 
 ### Después de publicar
 
-- Envía `https://<tu-dominio>/sitemap.xml` en Google Search Console.
+- Envía `https://slaudgauss.com/sitemap.xml` en Google Search Console.
 - Configura Google Business Profile con el mismo nombre, dirección y teléfono que la web.
